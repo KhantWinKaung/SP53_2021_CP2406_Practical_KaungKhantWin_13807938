@@ -1,3 +1,5 @@
+package Chapter_4.ProgrammingExercises;
+
 public class Ex04_12_Couple
 {
    private Ex04_12_Person bride;

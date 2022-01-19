@@ -1,3 +1,5 @@
+package Chapter_4.ProgrammingExercises;
+
 public class Ex04_04_BloodData
 {
    private String bloodType;

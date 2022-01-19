@@ -1,3 +1,5 @@
+package Chapter_4.ProgrammingExercises;
+
 public class Ex04_07_MathTest
 {
   public static void main(String[] args) 

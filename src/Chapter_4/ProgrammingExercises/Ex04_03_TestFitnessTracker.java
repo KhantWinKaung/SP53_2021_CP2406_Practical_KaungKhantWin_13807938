@@ -1,3 +1,7 @@
+package Chapter_4.ProgrammingExercises;
+
+import Chapter_4.ProgrammingExercises.Ex04_03_FitnessTracker;
+
 import java.time.*;
 public class Ex04_03_TestFitnessTracker
 {
