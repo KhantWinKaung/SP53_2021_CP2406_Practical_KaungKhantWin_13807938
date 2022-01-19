@@ -1,0 +1,25 @@
+package Chapter_14.ProgrammingExercises;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Ch14_Ex01_JBookQuote extends JFrame
+{
+   FlowLayout flow = new FlowLayout();
+   JLabel msg1 = new  JLabel("To begin with,");
+   JLabel msg2 = new JLabel("Marley was dead.");
+   public Ch14_Ex01_JBookQuote()
+   {
+      super("Book Quote");
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      setLayout(flow);
+      add(msg1); 
+      add(msg2);
+   }
+   public static void main(String[] args)
+   {
+     Ch14_Ex01_JBookQuote aFrame = new Ch14_Ex01_JBookQuote();
+     aFrame.setSize(300, 150);
+     aFrame.setVisible(true);
+   }
+}
