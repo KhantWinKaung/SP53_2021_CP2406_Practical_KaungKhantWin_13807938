@@ -52,4 +52,8 @@ public class Ex04_11_CertOfDeposit
    {
       return maturityDate;
    }
+
+   public String getName() {
+      return null;
+   }
 }
