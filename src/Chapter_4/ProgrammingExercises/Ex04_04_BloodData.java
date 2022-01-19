@@ -1,0 +1,30 @@
+public class Ex04_04_BloodData
+{
+   private String bloodType;
+   private String rhFactor;
+   public Ex04_04_BloodData()
+   {
+      this("O", "+");
+   }
+   public Ex04_04_BloodData(String bType, String rh)
+   {
+      bloodType = bType;
+      rhFactor = rh;
+   }
+   public void setBloodType(String bType)
+   {
+      bloodType = bType;
+   }
+   public String getBloodType()
+   {
+      return bloodType;
+   }
+   public void setRhFactor(String rh)
+   {
+      rhFactor = rh;
+   }
+   public String getRhFactor()
+   {
+      return rhFactor;
+   }
+}
